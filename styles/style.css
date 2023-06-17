@@ -6,3 +6,123 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+  font-family: "Roboto";
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.spotify-logo{
+  height: 90px;
+  width: 300px;
+}
+
+.header-options{
+  display: flex;
+  list-style: none;
+  font-size: 30px;
+}
+
+li{
+  padding: 15px;
+  list-style-type: none;
+}
+
+.landing-page{
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.main-title{
+  font-size: 70px;
+  color: #FFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 400px;
+}
+
+.introduction{
+  font-size: 38px;
+  color: #FFF;
+  text-align: center;
+  line-height: 40px;
+  text-size-adjust: auto;
+}
+
+.main-content{
+  margin: 50px 30px 50px 30px;
+}
+
+.main-content > h2 {
+  margin: 100px;
+}
+
+.specs{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 80px;
+}
+
+.specs-images{
+  height: 80px;
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+.specs-details{
+  margin: auto;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  text-decoration: underline green;
+  font-size: 40px;
+}
+
+h4{
+  color: #00B172;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.kanye{
+  background-color: #00B172;
+  color: white;
+  margin: 100px 80px;
+  padding: 80px;
+  display: flex;
+}
+
+p{
+  font-size: 24px;
+}
+
+.white-titles{
+  color: white;
+}
+
+.white-paragraphs{
+  width: 300px;
+}
+
+.white-icon{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  display: block;
+}
+
+.kanye-screenshot{
+  padding-top: 80px;
+  height: 800px;
+  width: 450px;
+}
